@@ -1,0 +1,246 @@
+
+.container { 
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px; 
+}
+
+.card {
+    background-color: white;
+    color: #333;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.card i{
+   position: absolute;
+   top: -13px;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: 20px;
+   background: var(--primary-color);
+   color: #fff;
+   border-radius: 50px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 48px;
+   height: 48px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px white solid;
+}
+
+.btn:hover {
+    transform: scale(.94);
+}
+
+
+/* backgrounds & coloured buttons */
+.bg-primary,
+ .btn-primary {
+   background-color: var(--primary-color);
+   color: white;
+   margin-top: 12px;
+}
+
+
+.bg-secondary,
+ .btn-secondary {
+   background-color: var(--secondary-color);
+   color: white;
+}
+
+
+.bg-dark,
+ .btn-dark {
+   background-color: var(--dark-color);
+   color: white;
+   /* padding: 10px; */
+}
+
+.bg-primary a,
+ .btn-primary a,
+ .bg-secondary a,
+ .btn-secondary a,
+ .bg-dark a,
+ .btn-dark a {
+color: WHITE;
+ }
+
+
+.bg-light,
+ .btn-light {
+   background-color: var(--light-color);
+   color: #333;
+}
+
+
+/* text sizes */
+.lead {
+   font-size: 20px;
+}
+
+.sm {
+   font-size: 1rem;
+}
+
+.md {
+font-size: 2rem;
+}
+
+
+.lg {
+   font-size: 3rem;
+}
+
+.xl {
+   font-size: 4rem;
+}
+
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+
+ .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+
+ /* MARGIN */
+
+ .my-1 {
+    margin: 1rem 0;   /* 1 rem =16px  */
+ }
+
+
+ .my-2 {
+    margin: 1.5rem 0;   /* 1 rem =16px  */
+ }
+
+ .my-3 {
+    margin: 2rem 0;   /* 2 rem =32px  */
+ }
+
+ .my-4 {
+    margin: 3rem 0;   /* 3 rem =48px  */
+ }
+
+ .my-5 {
+    margin: 4rem 0;   /* 4 rem =64px  */
+ }
+
+
+
+ .m-1 {
+   margin: 1rem ;   /* 1 rem =16px  */
+}
+
+
+.m-2 {
+   margin: 1.5rem ;   /* 1 rem =16px  */
+}
+
+.m-3 {
+   margin: 2rem ;   /* 2 rem =32px  */
+}
+
+.m-4 {
+   margin: 3rem;   /* 3 rem =48px  */
+}
+
+.m-5 {
+   margin: 4rem ;   /* 4 rem =64px  */
+}
+
+
+
+
+/* PADDING */
+
+.py-1 {
+   padding: 1rem 0;   /* 1 rem =16px  */
+}
+
+
+.py-2 {
+   padding: 1.5rem 0;   /* 1 rem =16px  */
+}
+
+.py-3 {
+   padding: 2rem 0;   /* 2 rem =32px  */
+}
+
+.py-4 {
+   padding: 3rem 0;   /* 3 rem =48px  */
+}
+
+.py-5 {
+   padding: 4rem 0;   /* 4 rem =64px  */
+}
+
+
+
+.p-1 {
+  padding: 1rem ;   /* 1 rem =16px  */
+}
+
+
+.p-2 {
+  padding: 1.5rem ;   /* 1 rem =16px  */
+}
+
+.p-3 {
+  padding: 2rem ;   /* 2 rem =32px  */
+}
+
+.p-4 {
+  padding: 3rem;   /* 3 rem =48px  */
+}
+
+.p-5 {
+  padding: 4rem ;   /* 4 rem =64px  */
+}
+
+
