@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    <div class="card-inner">
+    <div class="container">
+        <h1>Login</h1>
+        
+        <form id="login-form">
+            <div class="input-field">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <span class="required-message">Required</span>
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <span class="required-message">Required</span>
+            </div>
+            <div class="input-field">
+                <a href="#" style="text-decoration: none;
+                color: black;">Forgot password?</a>
+            </div>
+            <button type="submit" class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;LOGIN&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;Login&nbsp;</span>
+            </button>
+        </form>
+        <div id="success-message" class="hidden">
+            Login successful!
+        </div>
+        <div class="signup-link">
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
